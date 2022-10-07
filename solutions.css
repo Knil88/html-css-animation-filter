@@ -133,35 +133,48 @@
 }
 
 .ex-13-button:hover .ex-13-top-white {
-    animation: giroup infinite 3s;
+    animation: giroup infinite 0.4s;
 
     
 }
 @keyframes giroup {
     0% {
         left: 0%;
+        
+    }
+    25%{
+        left: 25%;
     }
     50% {
         left: 50%;
     }
+    75%{
+        left: 75%;
+    }
     100% {
-        left:20%;
+        left: 100%;
     }
 }
 
 .ex-13-button:hover .ex-13-bottom-white {
-    animation: girodown 3s infinite;
+    animation: girodown 0.4s infinite;
 }
 @keyframes girodown{
     0% {
         right: 0%;
         
     }
+    25%{
+        right: 25%;
+    }
     50% {
         right: 50%;
     }
+    75%{
+        right: 75%;
+    }
     100% {
-        right: 20%;
+        right: 100%;
     }
 }
 
